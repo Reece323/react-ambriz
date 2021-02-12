@@ -1,35 +1,35 @@
-import product1 from '../../images/product-1.jpg';
-import product2 from '../../images/product-2.jpg';
-import product3 from '../../images/product-3.jpg';
-import sweet1 from '../../images/sweet3.jpg';
-import sweet2 from '../../images/sweet-2.jpg';
-import sweet3 from '../../images/sweet-3.jpg';
+import product1 from '../../images/shirt1.jpg';
+import product2 from '../../images/shirt2.jpg';
+import product3 from '../../images/shirt3.webp';
+import sweet1 from '../../images/hoodie1.jpg';
+import sweet2 from '../../images/hoodie2.jpg';
+import sweet3 from '../../images/hoodie3.jpg';
 
 export const productData = [
   {
     img: product1,
-    alt: 'Pizza',
-    name: 'Supreme Pizza',
+    alt: 'T-Shirt',
+    name: 'T-Shirt',
     desc:
-      'Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      '100% sheep wool and maybe cashmere',
     price: '$19.99',
     button: 'Add to Cart'
   },
   {
     img: product2,
-    alt: 'Pizza',
-    name: 'Hawaiian Paradise',
+    alt: 'T-Shirt',
+    name: 'T-Shirt',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'Cotton, polyester, cranberries',
     price: '$16.99',
     button: 'Add to Cart'
   },
   {
     img: product3,
-    alt: 'Pizza',
-    name: 'Veggie Overload',
+    alt: 'T-Shirt',
+    name: 'T-Shirt',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'Description of shirt',
     price: '$14.99',
     button: 'Add to Cart'
   }
@@ -38,28 +38,28 @@ export const productData = [
 export const productDataTwo = [
   {
     img: sweet2,
-    alt: 'Donuts',
-    name: 'Doughlicious',
+    alt: 'Outerwear',
+    name: 'Hoodie',
     desc:
-      'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
-    price: '$9.99',
+      'Belgian hoodie with custom graphics',
+    price: '$29.99',
     button: 'Add to Cart'
   },
   {
     img: sweet3,
-    alt: 'Ice Cream',
-    name: 'Caramel Wonder',
+    alt: 'Outerwear',
+    name: 'Hoodie',
     desc:
-      'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
+      'Hoodie with custom graphics',
     price: '$12.99',
     button: 'Add to Cart'
   },
   {
     img: sweet1,
-    alt: 'Brownie',
-    name: 'Brownie Bunch',
+    alt: 'Outerwear',
+    name: 'Hoodie',
     desc:
-      'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
+      'Hoodie with custom graphics',
     price: '$9.99',
     button: 'Add to Cart'
   }
