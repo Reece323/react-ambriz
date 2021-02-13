@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
-import { FaPizzaSlice, FaTshirt } from 'react-icons/fa';
+import { FaTshirt } from 'react-icons/fa';
 
 export const Nav = styled.nav`
   background: transparent;
