@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
-import { FaTshirt } from 'react-icons/fa';
+import { AiOutlineMenu } from "react-icons/ai";
 
 export const Nav = styled.nav`
   background: transparent;
-  height: 80px;
+  height: 190px;
   display: flex;
   justify-content: center;
   font-weight: 700;
@@ -39,7 +39,7 @@ export const NavIcon = styled.div`
   }
 `;
 
-export const Bars = styled(FaTshirt)`
+export const Bars = styled(AiOutlineMenu)`
   font-size: 2rem;
   transform: translate(-50%, -15%);
 `;

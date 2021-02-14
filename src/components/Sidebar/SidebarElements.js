@@ -37,11 +37,11 @@ export const Icon = styled.div`
 export const SidebarMenu = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 80px);
+  grid-template-rows: repeat(6, 80px);
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(3, 60px);
+    grid-template-rows: repeat(3, 40px);
   }
 `;
 
@@ -49,7 +49,7 @@ export const SidebarLink = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
@@ -72,7 +72,7 @@ export const SidebarRoute = styled(Link)`
   white-space: nowrap;
   padding: 16px 64px;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   outline: none;
   border: none;
   cursor: pointer;
